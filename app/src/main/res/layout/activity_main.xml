@@ -19,4 +19,11 @@
         android:layout_marginTop="16dp"
         android:text="ConstraintLayout Chat" />
 
+    <Button
+        android:id="@+id/btn_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="FrameLayout Gallery" />
+
 </LinearLayout>

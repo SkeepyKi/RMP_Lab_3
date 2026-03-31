@@ -13,8 +13,10 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnLinear = findViewById(R.id.btn_linear);
         Button btnConstraint = findViewById(R.id.btn_constraint);
+        Button btnFrame = findViewById(R.id.btn_frame);
 
         btnLinear.setOnClickListener(v -> startActivity(new Intent(this, LinearLayoutActivity.class)));
         btnConstraint.setOnClickListener(v -> startActivity(new Intent(this, ConstraintLayoutActivity.class)));
+        btnFrame.setOnClickListener(v -> startActivity(new Intent(this, FrameLayoutActivity.class)));
     }
 }
