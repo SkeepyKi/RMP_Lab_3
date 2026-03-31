@@ -15,6 +15,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LinearLayoutActivity" />
+        <activity android:name=".ConstraintLayoutActivity" />
     </application>
 
 </manifest>
